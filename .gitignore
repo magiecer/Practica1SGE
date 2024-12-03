@@ -1,0 +1,21 @@
+# Ignorar claves o secretos
+*.env
+secrets/
+
+# Ignorar archivos de configuración sensibles
+config/*.yml
+docker-compose.override.yml
+
+# Ignorar archivos generados por el sistema
+*.log
+*.tmp
+
+# Ignorar directorios de entorno
+node_modules/
+__pycache__/
+*.pyc
+
+# Ignorar archivos de respaldo y del sistema operativo
+*.swp
+.DS_Store
+Thumbs.db
